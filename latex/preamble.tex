@@ -1,33 +1,17 @@
-% preamble.tex — packages and common configurations
-\documentclass[11pt]{article}
-
-
-% Simple and secure layout for ATS
-\usepackage[margin=1in]{geometry}
-\usepackage{parskip} % paragraph separation
-\usepackage[T1]{fontenc}
+% -----------------------------------------------------------------------------
+% Pacotes comuns e configurações
+% -----------------------------------------------------------------------------
 \usepackage[utf8]{inputenc}
-\usepackage{lmodern}
-\usepackage{enumitem}
-\setlist[itemize]{leftmargin=*}
+\usepackage[T1]{fontenc}
 \usepackage[hidelinks]{hyperref}
+\usepackage{enumitem}
 \usepackage{titlesec}
+\usepackage{parskip} % espaçamento entre parágrafos
+\usepackage{lmodern} % fonte moderna
 
+% Configuração de títulos de seções
+\titleformat{\section}{\bfseries\Large\uppercase}{\thesection}{1em}{}
+\titlespacing{\section}{0pt}{8pt plus 2pt minus 2pt}{4pt plus 2pt minus 2pt}
 
-% simple sections
-\titleformat{\section}{\large\bfseries}{}{0em}{}
-\titleformat{\subsection}{\normalsize\bfseries}{}{0em}{}
-
-
-% Do not use complex columns for main content (ATS compatibility)
-
-
-% Helper for metadata
-\newcommand{\Contact}[3]{%
-{\bf #1} \\
-#2 \\
-\href{mailto:#3}{#3}
-}
-
-
-% Document begins in the main files (resume-en.tex or resume-pt.tex etc.)
+% Remove números de página
+\pagenumbering{gobble}
