@@ -1,11 +1,11 @@
-````markdown
+
 # Thalys Leite - Currículo em LaTeX
 
 Este repositório contém os arquivos LaTeX do meu currículo em **português** e **inglês**, com automação completa para geração de PDFs e publicação no **GitHub Pages**.
 
 ---
 
-## 📄 Acesse os currículos
+## Acesse os currículos
 
 - [Currículo PT](https://sylaht.github.io/cv/resume-pt.pdf)  
 - [Currículo EN](https://sylaht.github.io/cv/resume-en.pdf)
@@ -25,5 +25,3 @@ Este repositório contém os arquivos LaTeX do meu currículo em **português** 
 * Portfolio: [thalys.dev](https://thalys.dev)
 * GitHub: [github.com/sylaht](https://github.com/sylaht)
 * LinkedIn: [linkedin.com/in/thalys-leite](https://www.linkedin.com/in/thalys-leite-94a80a234/)
-
-```
