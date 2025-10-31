@@ -1,0 +1,17 @@
+version: '3.8'
+services:
+  build-en:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile
+    volumes:
+      - ./build:/app/build
+    command: sh -c "pdflatex -interaction=nonstopmode -output-directory=build latex/resume-en.tex"
+
+  build-pt:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile
+    volumes:
+      - ./build:/app/build
+    command: sh -c "pdflatex -interaction=nonstopmode -output-directory=build latex/resume-pt.tex"
