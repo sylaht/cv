@@ -7,8 +7,8 @@ Este repositório contém os arquivos LaTeX do meu currículo em **português** 
 
 ## Acesse os currículos
 
-- [Currículo PT](https://sylaht.github.io/cv/resume-pt.pdf)  
-- [Currículo EN](https://sylaht.github.io/cv/resume-en.pdf)
+- [Currículo PT](https://sylaht.github.io/resume/resume-pt.pdf)  
+- [Currículo EN](https://sylaht.github.io/resume/resume-en.pdf)
 
 ---
 
